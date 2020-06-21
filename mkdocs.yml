@@ -1,0 +1,39 @@
+site_name: shelp
+site_author: progrhyme
+site_url: https://go-shelp.netlify.app/
+site_description: >-
+  "shelp" is a Git-based package manager for shell scripts written in Go.
+copyright: Copyright &copy; 2020 progrhyme
+
+repo_name: progrhyme/shelp
+repo_url: https://github.com/progrhyme/shelp
+edit_uri: https://github.com/progrhyme/shelp-doc/edit/master/docs
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: pink
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/progrhyme
+
+extra_css:
+  - stylesheets/extra.css
+
+# Pages
+nav:
+  - Home: index.md
+  - Bootstrap: bootstrap.md
+  - Tutorial: tutorial.md
+  - Configuration: configuration.md
+  - Guide: guide.md
+  - CLI Usage: cli-usage.md

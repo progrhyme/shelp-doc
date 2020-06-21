@@ -1,0 +1,38 @@
+:root {
+  --md-code-fg-color: hsla(160, 40%, 90%, 1);
+  --md-text-link-color: hsla(199, 40%, 60%, 1);
+}
+
+.md-nav__item .md-nav__link--active {
+  color: hsla(199, 40%, 60%, 1);
+}
+
+.md-typeset {
+  font-size: .86rem;
+  line-height: 1.6;
+}
+
+.md-typeset a {
+  color: hsla(199, 40%, 60%, 1);
+}
+
+.md-typeset code, .md-typeset pre, .md-typeset kbd {
+  color: hsla(160, 48%, 90%, 1);
+}
+
+.codehilite .c1, .highlight .c1 {
+  color: hsla(150, 12%, 50%, 1);
+}
+
+.md-typeset table:not([class]) th {
+  font-weight: bold;
+  background-color: hsla(232, 16%, 48%, 1);
+}
+
+.md-typeset table:not([class]) {
+  font-size: .78rem;
+}
+
+.md-typeset .admonition, .md-typeset details {
+  font-size: .72rem;
+}
