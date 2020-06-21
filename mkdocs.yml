@@ -21,6 +21,10 @@ markdown_extensions:
   - admonition
   - pymdownx.superfences
 
+plugins:
+  - search
+  - git-revision-date-localized
+
 extra:
   social:
     - icon: fontawesome/brands/github-alt
