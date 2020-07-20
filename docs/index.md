@@ -1,5 +1,7 @@
 # shelp
 
+[![release](https://badgen.net/github/release/progrhyme/shelp)](https://github.com/progrhyme/shelp/releases)
+
 `shelp` is a Git-based package manager written in Go, primarily for shell scripts.
 
 ## What is this for?
