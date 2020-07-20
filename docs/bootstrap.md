@@ -18,7 +18,7 @@ Choose one which is suitable for you.
 ### Homebrew (Linuxbrew)
 
 ```sh
-brew tap progrhyme/taps
+brew tap progrhyme/tap
 brew install shelp
 ```
 
